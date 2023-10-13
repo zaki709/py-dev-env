@@ -3,7 +3,7 @@ services:
   python3:
     restart: always
     build: .
-    container_name: 'python-rsch'
+    container_name: 'pydev'
     working_dir: '/root/src'
     tty: true
     volumes:
